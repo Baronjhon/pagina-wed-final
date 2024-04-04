@@ -1,0 +1,182 @@
+html {
+    font-family: "Lobster", sans-serif;
+}
+
+body {
+    background-image: url(img/Barbershop.jpg);
+    background-size: cover;
+    margin: 0;
+    background-color: #efefef
+}
+
+header {
+    background-color: deepskyblue;
+    color: black;
+    padding: 3rem 2rem;
+}
+header h1 {
+    font-size: 4rem;
+    text-align: center;
+}
+
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: #fff;
+    margin: 1rem 0;
+    border-radius: 0.5rem;
+    padding: 0.25rem 0;
+    cursor: pointer;
+}
+section article:hover {
+    box-shadow: 0 0.1rem 0.4rem rgba(0,0,0,0.3);
+}
+
+section article h2, section article p{
+    margin: 1rem;
+}
+footer {
+    background-color: #222;
+    padding: 3rem;
+    color: #fff;
+}
+footer section {
+    float: right;
+}
+footer p{
+    margin: 0;
+}
+footer a {
+    transition: color 0.3s ease;
+    color:#fff;
+    text-decoration: none;
+}
+footer a:hover {
+    color: cornflowerblue
+}
+nav{
+    max-width: 900px;
+    margin: auto;
+    background-color: #333;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.menu-horizontal{
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+.menu-horizontal > li > a{
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+}
+.menu-horizontal > li:hover{
+    background-color: red;
+}
+.menu-vertical{
+    position: absolute;
+    display: none;
+    list-style: none;
+    width: 200px;
+    background-color: rgba(0, 0, 0, .5);
+}
+.menu-horizontal li:hover .menu-vertical{
+    display: block;
+}
+.menu-vertical li:hover{
+    background-color: black;
+}
+.menu-vertical li a{
+    display: block;
+    color: white;
+    padding: 15px 15px 15px 20px;
+}
+.dylan{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    right: 450px;
+    
+    
+}
+.dylan1{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 622px;
+    left: 30px;
+}
+.dylan2{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    left:450px;
+    bottom: 1254px;
+}
+.dylan3{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    right: 450px;
+    bottom: 1230px;
+}
+.dylan4{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 1850px;
+    left: 30px;
+}
+.dylan5{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 2500px;
+    left: 450px;
+}
+.dr{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    right: 450px;  
+}
+.dr1{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 696px;
+    left: 30px;
+}
+.dr2{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    left:450px;
+    bottom: 1292px;
+}
+.dr3{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    right: 450px;
+    bottom: 1200px;
+}
+.rd{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    right: 450px;  
+}
+.rd1{
+    width: 300px;
+    margin: 0 auto;
+    position: relative;
+    bottom: 794px;
+    left: 30px;
+}
+.dm{
+    width: 300px;
+    margin: 0 auto;
+}
